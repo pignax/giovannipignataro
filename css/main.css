@@ -395,6 +395,7 @@ header a {
   color: #e85151;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 header a:hover {
   color: #d11c1c;
@@ -492,7 +493,7 @@ header nav ul li a.bordered {
   }
 }
 #content section.intro h1 {
-  font-size: 8em;
+  font-size: 4em;
   border-top: 2px solid #fff;
   letter-spacing: -0.05em;
   margin-top: 1.2em;
@@ -500,7 +501,7 @@ header nav ul li a.bordered {
 }
 @media screen and (max-width: 540px) {
   #content section.intro h1 {
-    font-size: 4em;
+    font-size: 2em;
     line-height: 1.2em;
     padding-top: 0.4em;
   }
@@ -648,4 +649,6 @@ header nav ul li a.bordered {
   opacity: 1;
 }
 
-/*# sourceMappingURL=main.css.map */
+.spazio{
+  margin-bottom: 80px;
+}
